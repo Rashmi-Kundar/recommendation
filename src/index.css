@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 :root {
   --theme-color: #2bdc81;
   --primary-color: #edf2f8;
   --light-gray: #6b7688;
-  --font-base: "Roboto", sans-serif;
+  --font-base: 'Playfair Display', serif;
+ 
   --white-bg: #fff;
 }
 

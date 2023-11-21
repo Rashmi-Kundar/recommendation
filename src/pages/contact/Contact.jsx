@@ -1,10 +1,15 @@
 import React from "react";
 import "./contact.scss";
+import { motion } from "framer-motion";
 
 const Contact = () => {
     return (
         <div className="app__contact-container">
-            <div className="app__contact-subcontainer">
+            <motion.div
+             whileInView={{ x: [200, 0] }}
+              transition={{ ease: "easeIn", duration: 0.75 }}
+              className="app__contact-subcontainer"
+            >
                 <div className="left-container">
                     <div className="conatct-title">
                         <h1>Contact Us</h1>
@@ -22,8 +27,8 @@ const Contact = () => {
 
                 </div>
 
-            </div>
-
+        
+        </motion.div>
         </div>
 
     );

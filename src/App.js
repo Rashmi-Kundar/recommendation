@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import "./App.scss";
-import { Home, Login, Register ,Contact} from "./pages";
+import { Home, Login, Register ,Contact ,About} from "./pages";
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
   <Route path="/login" element={<Login />} />
   <Route path="/register" element={<Register />} />
   <Route path="/contact" element={<Contact />} />
+  <Route path="/about" element={<About />} />
 
 </Routes>
 </BrowserRouter> 
